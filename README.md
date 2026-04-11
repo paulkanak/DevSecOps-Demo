@@ -12,18 +12,20 @@ Jerney is a modern full-stack blog platform built with a focus on **DevSecOps be
 - 💬 Comment on posts  
 
 ---
-
 ## 🏗️ Architecture
+```
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │   Frontend   │────▶│   Backend    │────▶│  PostgreSQL   │
 │   (React +   │◀────│  (Node.js +  │◀────│              │
 │    Nginx)    │     │   Express)   │     │              │
 │   Port 80    │     │  Port 5000   │     │  Port 5432   │
 └──────────────┘     └──────────────┘     └──────────────┘
+```
 
 
 📁 Project Structure
 
+```
 Jerney/
 ├── frontend/                # React (Vite) frontend
 │   ├── src/                 # React components & pages
@@ -36,6 +38,7 @@ Jerney/
 │   ├── setup.sh             # One-click EC2 setup script
 │   └── jerney-nginx.conf    # Nginx reverse proxy config
 └── README.md
+```
 
 
 ---
@@ -78,7 +81,7 @@ Jerney/
 ---
 
 ## 🔥 CI/CD Security Pipeline
-
+---
 Lint (ESLint) → Code Quality
 ↓
 SAST (SonarQube) → Security Analysis (Planned)
@@ -94,7 +97,6 @@ Build Image
 Container Scan (Trivy) → Image Security
 ↓
 Deploy → Runtime
-
 
 ---
 
