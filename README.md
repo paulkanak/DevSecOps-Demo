@@ -81,24 +81,21 @@ Jerney/
 ---
 
 ## 🔥 CI/CD Security Pipeline
----
-Lint (ESLint) → Code Quality
-↓
-SAST (SonarQube) → Security Analysis (Planned)
-↓
-SCA (npm audit) → Dependency Scan
-↓
-IaC & K8s Scan (Checkov)
-↓
-Dockerfile Lint (Hadolint)
-↓
-Build Image
-↓
-Container Scan (Trivy) → Image Security
-↓
-Deploy → Runtime
-
----
+Lint (ESLint) → Code Quality  
+↓  
+SAST (SonarQube) → Security Analysis (Planned)  
+↓  
+SCA (npm audit) → Dependency Scan  
+↓  
+IaC & K8s Scan (Checkov)  
+↓  
+Dockerfile Lint (Hadolint)  
+↓  
+Build Image  
+↓  
+Container Scan (Trivy) → Image Security  
+↓  
+Deploy → Runtime  
 
 ## 🚀 Tech Stack
 
