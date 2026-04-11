@@ -199,7 +199,7 @@ spec:
               echo "DB is ready!"
       containers:
         - name: backend
-          image: kanakpaul/jerney-backend:latest # Replace with your actual image tag
+          image: docker.io/kanakpaul/jerney-backend:45dcbe2
           ports:
             - containerPort: 5000
               protocol: TCP
@@ -307,7 +307,7 @@ spec:
           effect: "NoSchedule"
       containers:
         - name: frontend  
-          image: kanakpaul/jerney-frontend:latest # Replace with your actual image tag
+          image: docker.io/kanakpaul/jerney-frontend:45dcbe2
           ports:
             - containerPort: 8080
               protocol: TCP
