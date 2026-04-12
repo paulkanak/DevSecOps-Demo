@@ -63,7 +63,7 @@ Jerney/
 
 | Branch | Purpose |
 |--------|--------|
-| `main` | Terraform IaC for EKS |
+| `main` | Source code and Terraform(IaC) manifest for EKS |
 | `stage` | Full DevSecOps pipeline (Docker, Kubernetes, CI/CD, Security Scanning) |
 
 ---
@@ -118,6 +118,3 @@ Deploy → Runtime
 
 ---
 
-## 👨‍💻 Author
-
-**Kanak Paul**
